@@ -1,0 +1,104 @@
+
+
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:'Light 300 Italic';
+}
+body{
+    background-color: black;
+}
+section{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(./people\ fixing\ car\ with\ broken\ laptop.png);
+
+}
+
+.container{
+    width:85%;
+    margin:auto;
+    
+}
+
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color:aquamarine
+}
+
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+
+
+nav ul li a:hover{
+    background-color: antiquewhite;
+    transition: 0.5s ease;
+}
+
+nav ul li .active{
+    background-color: antiquewhite;
+}
+
+.article{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+
+.article h1{
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.article p{
+    font-size: 18px;
+    color: aliceblue;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+main label{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+main .container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+caption{
+    color:#FFFFFF
+}
+main section .img{
+    position: center;
+    padding: 15px;
+    border:3px solid red;
+    text-align: center;
+    width: 50px;
+    height:auto;
+}
